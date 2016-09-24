@@ -1,0 +1,354 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Interactive Portfolio Web App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <p>Jaymes Phimmachack</p>
+        <nav>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Articles</a></li>
+        </nav>
+        <div class="search">
+            <input type="text" id="search" required>
+            <label for="search" class="search-label" for="search">SEARCH</label>
+            <label class="zoom" for="magni"><i class="fa fa-search fa-2x"></i></label>
+            <input type="radio" id="magni" name="search">
+            <div class="model">
+                <p>Search Temporarily Disabled</p>
+                <input type="radio" id="close" name="search">
+                <label class="close" for="close" class="model-close"><i class="fa fa-times fa-2x" aria-hidden="true"></i></label>
+            </div>
+           
+        </div>
+    </div>
+    <div class="container">
+        <section id="about">
+            <h1>ABOUT</h1>
+            <p>Hi, I'm Jaymes Phimmachack. After many years of working in a field that I have very little interest in, I decide to look into a field that has something to do with computer, I can learn from home, and I can learn it in my spare time. I decided upon web development. I tried many websites to learn on my own until I stumble upon javascriptissexy.com. I saw the post about Learn.ModernDeveloper in development so I signed up and here I am on the path to becoming a fullstack developer.</p>
+
+  <div class="img-container">
+  
+
+  <input type="radio" id="img1" name="img-thumb" checked>
+  <label  class="img-thumbnail" for="img1"><image src="images/atlantic-city.jpg"></label>
+
+    <input type="radio" id="img2" name="img-thumb">
+  <label  class="img-thumbnail" for="img2"><image src="images/waterfall.jpg"></label> 
+
+    <input type="radio" id="img3" name="img-thumb">
+    <label  class="img-thumbnail" for="img3"><image src="images/jamaica.jpg"></label>  
+
+      <input type="radio" id="img4" name="img-thumb">
+     <label  class="img-thumbnail" for="img4"><image src="images/sunset.jpg"></label> 
+     
+    
+   <div class="main-photo">
+     <image src="images/atlantic-city.jpg" class="main-photo">  
+   <image src="images/waterfall.jpg" class="main-photo">  
+   <image src="images/jamaica.jpg" class="main-photo">  
+    <image src="images/sunset.jpg" class="main-photo">  
+     
+     </div>
+</div>
+
+
+            <div>
+            </div>
+        </section>
+        <section id="projects">
+            <h1>PROJECTS</h1>
+            <p>Below are all the projects I completed during my time at Modern Developer. I will constantly update and add more projects.</p>
+            <div class="projects">
+                <input type="radio" name="tab" id="calc" checked>
+                <label for="calc" class="tab">Real Calculator</label>
+                <div class="project-container">
+                    <div class="carousel">
+                        <div class="project-carousel">
+                            <input type="radio" name="group1" id="pt1-1" checked>
+                       
+                            <img src="images/calc1.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt1-3"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt1-2"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <input type="radio" name="group1" id="pt1-2">
+                            <img src="images/calc2.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt1-1"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt1-3"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <input type="radio" name="group1" id="pt1-3">
+                            <img src="images/calc3.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt1-2"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt1-1"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                      
+                            <div class="carousel-control">
+                                <label for="pt1-1"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                                <label for="pt1-2"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                                <label for="pt1-3"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                            </div>
+                        </div>
+                        <div class="project-desc">
+                            <h1><span>Technologies:</span> HTML5, CSS3, and Vanilla Javascript</h1>
+                            <p>My fully functional calculator app.</p>
+                            <a href="https://jaymesphimmachack.github.io/web-components/components/calculator/calculator.html" class="demo">View Demo</a>
+                            <a href="https://github.com/JaymesPhimmachack/web-components/tree/master/components/calculator" class="source"><i class="fa fa-github" aria-hidden="true"></i>Project Source on Github</a>
+                        </div>
+                    </div>
+                </div>
+                <input type="radio" name="tab" id="cart">
+                <label for="cart" class="tab">Shopping Cart</label>
+                <div class="project-container">
+                    <div class="carousel">
+                        <div class="project-carousel">
+                            <input type="radio" name="group2" id="pt2-1" checked>
+                            <img src="images/cart1.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt2-3"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt2-2"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <input type="radio" name="group2" id="pt2-2">
+                            <img src="images/cart2.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt2-1"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt2-3"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <input type="radio" name="group2" id="pt2-3">
+                            <img src="images/cart3.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt2-2"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt2-1"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <div class="carousel-control">
+                                 <label for="pt2-1"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                                <label for="pt2-2"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                                <label for="pt2-3"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                            </div>
+                        </div>
+                        <div class="project-desc">
+                            <h1><span>Technologies:</span> HTML5, CSS3, and Vanilla Javascript</h1>
+                            <p>Shopping cart template for any project.</p>
+                             <a href="https://jaymesphimmachack.github.io/web-components/components/product-listing/product-listing.html" class="demo">View Demo</a>
+                            <a href="https://github.com/JaymesPhimmachack/web-components/tree/master/components/product-listing" class="source"><i class="fa fa-github" aria-hidden="true"></i>Project Source on Github</a>
+                        </div>
+                    </div>
+                </div>
+                <input type="radio" name="tab" id="forms">
+                <label for="forms" class="tab">Forms</label>
+                <div class="project-container">
+                    <div class="carousel">
+                        <div class="project-carousel">
+                            <input type="radio" name="pt3" id="pt3-1" checked>
+                            <img src="images/form1.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt3-3"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt3-2"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <input type="radio" name="pt3" id="pt3-2">
+                            <img src="images/form2.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt3-1"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt3-3"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <input type="radio" name="pt3" id="pt3-3">
+                            <img src="images/form3.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt3-2"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt3-1"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <div class="carousel-control">
+                                 <label for="pt3-1"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                                <label for="pt3-2"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                                <label for="pt3-3"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                            </div>
+                        </div>
+                        <div class="project-desc">
+                            <h1><span>Technologies:</span> HTML5, CSS3, and Vanilla Javascript</h1>
+                            <p>Here is a few screen shots of forms I developed</p>
+                             <a href="https://jaymesphimmachack.github.io/web-components/components/forms/credit-card-form.html" class="demo">View Demo</a>
+                            <a href="https://github.com/JaymesPhimmachack/web-components/tree/master/components/forms" class="source"><i class="fa fa-github" aria-hidden="true"></i>Project Source on Github</a>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <input type="radio" name="tab" id="buttons">
+                <label for="buttons" class="tab">Buttons</label>
+                <div class="project-container">
+                    <div class="carousel">
+                        <div class="project-carousel">
+                            <input type="radio" name="pt5" id="pt5-1" checked>
+                            <img src="images/button1.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt5-3"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt5-2"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <input type="radio" name="pt5" id="pt5-2">
+                            <img src="images/button2.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt5-1"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt5-3"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <input type="radio" name="pt5" id="pt5-3">
+                            <img src="images/button3.png">
+                            <div class="carousel-arrow">
+                                <label class="prev" for="pt5-2"><i class="fa fa-arrow-circle-left fa-4x" aria-hidden="true"></i></label>
+                                <label class="next" for="pt5-1"><i class="fa fa-arrow-circle-right fa-4x" aria-hidden="true"></i></label>
+                            </div>
+                            <div class="carousel-control">
+                                 <label for="pt5-1"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                                <label for="pt5-2"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                                <label for="pt5-3"><i class="fa fa-circle" aria-hidden="true"></i></label>
+                            </div>
+                        </div>
+                        <div class="project-desc">
+                            <h1><span>Technologies:</span> HTML5, CSS3, and Vanilla Javascript</h1>
+                            <p>Custom buttons. I will continue to make revision</p>
+                             <a href="https://jaymesphimmachack.github.io/web-components/components/buttons/buttons.html" class="demo">View Demo</a>
+                            <a href="https://github.com/JaymesPhimmachack/web-components/tree/master/components/buttons" class="source"><i class="fa fa-github" aria-hidden="true"></i>Project Source on Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h1>SKILLS</h1>
+            <p>I am on the road to become a highly skilled in Front-end Development. However, I will continue my study at Modern Developer to learn Backend Development to become a Fullstack Developer.</p>
+            <div class="skillbar">
+                <div class="frontend">90%</div>
+                <div class="backend">20%</div>
+            </div>
+            <div id="chart-carousel">
+                <div class="fe-chart">
+                    <h3>Frontend Development</h3>
+                    <div class="side-label">
+                        <span>Expert</span>
+                        <span>Proficient</span>
+                        <span>Competent</span>
+                        <span>Learning</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="lvl4 bar"><div class="tooltiptext">Expert</div></div>
+                        <div class="lvl3 bar"><div class="tooltiptext">Proficient</div></div>
+                        <div class="lvl2 bar"><div class="tooltiptext">Compentent</div></div>
+                        <div class="lvl1 bar"><div class="tooltiptext">Learning</div></div>
+                        <div class="lvl4 bar"><div class="tooltiptext">Expert</div></div>
+                    </div>
+                    <div class="btm-label">
+                        <span>Javascript</span>
+                        <span>HTML/CSS</span>
+                        <span>ReactJS</span>
+                        <span>Javascript</span>
+                        <span>JQuery</span>
+                    </div>
+                </div>
+                <div class="be-chart">
+                    <h3>Backend Development</h3>
+                    <div class="side-label">
+                        <span>Expert</span>
+                        <span>Proficient</span>
+                        <span>Competent</span>
+                        <span>Learning</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="lvl4 bar"></div>
+                        <div class="lvl3 bar"></div>
+                        <div class="lvl2 bar"></div>
+                        <div class="lvl1 bar"></div>
+                        <div class="lvl4 bar"></div>
+                    </div>
+                    <div class="btm-label">
+                        <span>Javascript</span>
+                        <span>HTML/CSS</span>
+                        <span>ReactJS</span>
+                        <span>Javascript</span>
+                        <span>JQuery</span>
+                    </div>
+                </div>
+                <div class="other-chart">
+                    <h3>Other Skills</h3>
+                    <div class="side-label">
+                        <span>Expert</span>
+                        <span>Proficient</span>
+                        <span>Competent</span>
+                        <span>Learning</span>
+                    </div>
+                    <div class="bar-container">
+                        <div class="lvl4 bar"></div>
+                        <div class="lvl3 bar"></div>
+                        <div class="lvl2 bar"></div>
+                        <div class="lvl1 bar"></div>
+                        <div class="lvl4 bar"></div>
+                    </div>
+                    <div class="btm-label">
+                        <span>Javascript</span>
+                        <span>HTML/CSS</span>
+                        <span>ReactJS</span>
+                        <span>Javascript</span>
+                        <span>JQuery</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>CONTACT</h1>
+            <p>Feel feel to contact me. I'm looking to make new friends, collaborate on projects, join business venture or career opportunity.</p>
+ 
+<label class="card-label">
+      <input type="checkbox">
+      <div class="card">
+        <div class="front">
+          <div class="card-content">
+          <div>
+            <h1>Jaymes Phimmachack</h1>
+            <h3>Student at Modern Developer</h3>
+            
+             <p>Passion and desire to develop and deliver beautiful, high quality application. I am on the road to become a highly skilled in Fullstack Development</p>
+          </div>
+          <div class="card-contact">
+            <p><a href="#">jphimmachack@gmail.com</a></p>
+            <p><a href="#">jphimmachack.com</a></p>
+          </div>
+          <i class="fa fa-retweet"></i>
+
+          <div class="enc-content">
+            <image src="images/enc1.png">
+              <p class="name">Jaymes Phimmachack</p>
+              <p class="ency"><span>on</span><a href="#">Encyclopedia.MD</a></p>
+          </div>
+          </div>
+          <div class="social-links">
+
+            <a><image src="images/twitter.png"></a>
+            <a><image src="images/github1.png"></a>
+            <a><image src="images/facebook.png"></a>
+            <a><image src="images/linkedin.png"></a>
+
+          </div>
+        </div>
+
+        <div class="back">
+          <p>Jaymes Phimmachack</p>
+        </div>
+
+      </div>
+    </label> 
+   
+        </section>
+    </div>
+    <footer>&copy; 2016 Jaymes Phimmachack</footer>
+</body>
+
+</html>
