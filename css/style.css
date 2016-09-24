@@ -278,7 +278,7 @@ section > p {
 
 .projects {
 position: relative;
-height: 535px;
+height: 550px;
 width: 704px;    
 overflow: hidden;  
 margin: 40px auto;    
@@ -286,8 +286,8 @@ margin: 40px auto;
 
 .project-container {
    display: none;
-  width: 500px; 
-  height: 100%; 
+  width: 450px; 
+  height: 550px; 
   position: absolute;
   top: 0;
   left: 160px;
@@ -327,10 +327,6 @@ border: 1px solid #9bccf5;
  }
 
 
-.projects input:checked ~ .project-container .carousel{
-  width: 100% ;
-  height: 360px;
-}
 
 .project-carousel {
     width: 100%;
@@ -341,7 +337,7 @@ border: 1px solid #9bccf5;
 .project-carousel img {
 display: none;
 max-width: 100%;
-max-height: 395px;
+max-height: 100%;
 border-radius: 5px;
 }
 
@@ -378,11 +374,6 @@ cursor: pointer;
 }
 
 
-
-.project-desc {
-  width: 100%; 
-  height: 190px;
-}
 
 .project-desc h1 {
 font-size: 18px; 
@@ -424,8 +415,8 @@ position: relative;
 }
 
 .carousel-arrow label i {
-position: relative;
-top: 150px;
+position: absolute;
+bottom: 150px;
 left: 18px;
 color: #C0C0C0;
 }
@@ -436,13 +427,14 @@ background-color: rgba(255, 255, 255, .3);
 transition: opacity .2s;
 border-radius: 5px;
 width: 100px;
-height: 360px;
+height: 550px;
 opacity: 0.5;
 }
 
 .carousel-arrow label:hover {
 opacity: 1;
 cursor: pointer;
+
 }
 
 .carousel-arrow .prev {
