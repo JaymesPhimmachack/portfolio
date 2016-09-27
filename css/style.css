@@ -9,7 +9,7 @@
 
 body {
 position: relative;
-height: 1200px;
+height: auto;
 width: 100%;
 color: #969696;
 font-family: 'Titillium Web', sans-serif;
@@ -179,7 +179,7 @@ h1 {
 }
 
 section {
-  min-height: 700px;
+  min-height: 800px;
   border-bottom: 1px solid #9bccf5;
   position: relative;
   padding-top: 80px;
@@ -496,11 +496,16 @@ display: block;
 
 
 .fe-chart, .be-chart, .other-chart {
-  margin: 40px auto;  
+  margin: 10px auto;  
   width: 430px;
-  height: 300px;
+  height: 330px;
   font-size: 14px;
+ position: relative;
+}
 
+
+.fe-chart {
+  margin-top: 80px;
 }
 
 
@@ -525,19 +530,10 @@ display: block;
 }
 
 
-.btm-label span {
-  display: inline-block;
-  transform: rotate(45deg);
-  margin: 0 -4px;
-}
-
-
-
-
 .lvl4 {
   height: 160px;
   background-color: #00C5F4;
-  position: relative;
+
 }
 
 .lvl3 {
@@ -597,32 +593,40 @@ border-top: 10px solid #000;
 }
 
 .bar {
-  
   width: 40px;
-display: inline-block;  
-   border-radius: 5px;
+  display: inline-block;  
+  border-radius: 5px;
   margin: 0 10px; 
-  
 }
 
+
+.be-chart .bar {
+  position: relative;
+  top: 120px;
+}
 
 .bar-container {
   width: 340px;
-     
   position: relative;
   bottom: 155px; 
   left: 90px;
+  height: 150px;
 }
 
+.btm-label span {
+  display: inline-block;
+  transform: rotate(45deg);
+  margin-left: -100px;
+  width: 160px;
+}
+ 
 
 .btm-label {
-  position: relative;
-  bottom: 125px;
-  left: 120px;
-  width: 310px;    
+    position: absolute;
+  left: 200px;
+  bottom: 35px;
+ width: 370px; 
 }
-
-
 
 
 /* BUSINESS CARD */
@@ -640,7 +644,7 @@ display: inline-block;
   width: 545px;
   height: 350px;
   perspective: 1200px;
-  margin-top: 20px;
+ margin-top: 20px;
  
 }
 
