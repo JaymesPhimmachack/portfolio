@@ -469,7 +469,7 @@ display: block;
  position: relative;
   color: #fff;  
   width: 766px;    
- box-shadow: -8px 8px 5px #9e999e;  
+  
 
 
 }
@@ -521,7 +521,6 @@ display: block;
 .side-label span {
   display: block;
   margin: 15px 0;
-  text-shadow: -5px 5px 5px #9e999e;
   height: 25px;
   text-align: center;    
 }
@@ -531,7 +530,6 @@ display: block;
   display: inline-block;
   transform: rotate(45deg);
   margin: 0 -4px;
-  text-shadow: -8px 8px 5px #9e999e;
 }
 
 
@@ -605,7 +603,7 @@ border-top: 10px solid #000;
 display: inline-block;  
    border-radius: 5px;
   margin: 0 10px; 
-  box-shadow: -8px 8px 5px #9e999e;
+  
 }
 
 
@@ -675,7 +673,7 @@ display: inline-block;
   transform-style: preserve-3d;
   width: 545px;
   height: 350px;
-  box-shadow:  -14px 14px 5px #9e999e;
+ 
 }
 
 .front {
@@ -692,7 +690,6 @@ display: inline-block;
 
 .card:hover {
   transform: rotateX(30deg);
-  box-shadow: 0 30px 30px 1px #9e999e;
 }
 
 .card-label input:checked + .card:hover {
@@ -705,7 +702,7 @@ display: inline-block;
 }
 
 .back {
-  background-image: url("images/keywest.jpg");
+  background-image: url("../images/atlantic-city.jpg");
   background-size: contain;
   transform: rotateX(-180deg);
   background-size: cover;
