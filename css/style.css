@@ -1156,19 +1156,47 @@ footer {
     .model footer:nth-of-type(2) {
         display: block;
     }
+    
+    .header {
+        background-color: #6600cc;
+
+    }
+
+    footer {
+     background-color: #6600cc;
+    }
 }
 
 @media screen and (min-width: 361px) and (max-width: 600px) {
     .model footer:nth-of-type(3) {
         display: block;
     }
+    .header {
+        background-color: #0000cc;
+        
+    }
+
+    footer {
+     background-color: #0000cc;
+    }
+
 }
 
 @media screen and (max-width: 360px) {
     .model footer:nth-of-type(4) {
         display: block;
     }
+
+    .header {
+        background-color: #0000cc;
+        
+    }
+
+    footer {
+     background-color: #0000cc;
+    }
 }
+
 
 @media screen and (max-width: 1030px) {
     .search-label,
@@ -1205,7 +1233,7 @@ footer {
 
 @media screen and (max-width: 740px) {
     body {
-        background-color: purple;
+        background-color: #db4dff;
         color: #fff;
         padding: 0;
     }
