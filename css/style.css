@@ -11,6 +11,7 @@ body {
     width: 100%;
     color: #969696;
     font-family: 'Titillium Web', sans-serif;
+    line-height: 1;
 }
 
 input[type="radio"],
@@ -184,6 +185,7 @@ section > p {
   margin: 10px auto 50px;
   line-height: 1.5em;
   width: 80%;
+  font-size: 24px;
 }
 
 #projects > ul li {
@@ -1255,8 +1257,7 @@ footer {
         padding: 0;
     }
  
-    section p {/*
-        margin: 10px auto;*/
+    section p {
         width: 90%;
     }
 
@@ -1387,258 +1388,22 @@ footer {
 
 	}
 
-@media screen and (max-width: 580px) {/*
-    .front,
-    .back {
-        width: 95%;
-        height: 95%;
-    }
-    .card-label {
-        margin: 0 auto;
-    }*/
-}
 
-@media screen and (max-width: 565px) {/*
-    .card-label {
-        margin-left: 4%;
-    }
-*/
-   
+@media screen and (max-width: 565px) {
+
     .skillbar {
         width: 95%;
-    }/*
-    .front h1 {
-        font-size: 24px;
     }
-    .front h3 {
-        font-size: 18px;
-    }
-    .front p {
-        font-size: 14px;
-    }
-    .front .social-links {
-        right: -30px;
-    }
-    .front .social-links img {
-        width: 30px;
-    }
-    .enc-content img {
-        width: 40px;
-    }
-    .enc-content p {
-        font-size: 14px;
-    }*/
-
 
 }
-/*
-@media screen and (max-width: 535px) {
-    .front,
-    .back {
-        width: 85%;
-        height: 85%;
-    }
-}
 
-@media screen and (max-width: 515px) {
-    .front,
-    .back {
-        width: 80%;
-        height: 80%;
-    }
-}*/
 
-@media screen and (max-width: 470px) {
-   /*
-    .project-desc p {
-        margin: 10px auto;
-    }
-    .card-contact {
-    	margin-top: 5px;
-    }
-      .enc-content {
-        left: 10px;
-      
-}*/
-/*
-@media screen and (max-width: 485px) {
-    .front,
-    .back {
-        width: 75%;
-        height: 75%;
-    }
-}*/
-
-@media screen and (max-width: 455px) {/*
-    .card-label {
-        margin-left: 0;
-    }*/
+@media screen and (max-width: 455px) {
+ 
     body{
     	overflow-x: hidden;
     }
-/*
-    .bar-container {
-        left: 90px;
-        bottom: 140px;
-    }
 
-    .btm-label span, .other-btm-label span {
-    	margin-left: -105px;
-    }
-     .btm-label {
-        bottom: 60px;
-        left: 190px;
-    }
-
-     .other-btm-label {
-        bottom: 40px;
-        left: 185px;
-    }
-
-    .project-desc a {
-    	margin: auto;
-    }
-
-    .bar {
-    	margin: 0 8px;
-    }*/
 
 }
 
-@media screen and (max-width: 340px) {/*
-    .calc-container {
-        width: 280px;
-    }
-    .calc-container #display {
-        width: 260px;
-    }
-    .carousel-arrow .prev {
-        left: -15px;
-    }
-    .carousel-arrow .next {
-        right: -15px;
-    }
-    .fa-arrow-circle-left,
-    .fa-arrow-circle-right {
-        font-size: 36px;
-    }
-    .carousel-arrow label {
-        width: 60px;
-    }
-    .project-carousel {
-        padding: 0 20px;
-    }
-    .project-desc h1 {
-        font-size: 14px;
-        display: flex;
-        flex-direction: column;
-    }
-    .project-desc p {
-        margin: 10px auto 10px;
-        font-size: 14px;
-        width: 90%;
-    }
-    .project-desc a {
-        margin: 0 5px;
-    }
-   
-    #question {
-        position: absolute;
-        top: 225px;
-        right: 120px;
-    }
-    #cc-form {
-        padding-left: 10px;
-        width: 100%;
-        font-size: 14px;
-    }
-    .fe-chart h3,
-    .be-chart h3,
-    .other-chart h3 {
-        text-align: left;
-        font-size: 16px;
-        margin: 5px 0 0 5px;
-    }
-    .lvl4 {
-        height: 80%;
-    }
-    .lvl3 {
-        height: 60%;
-    }
-    .lvl2 {
-        height: 30%;
-    }
-    .lvl1 {
-        height: 10%;
-    }
-    
-    .fe-chart,
-    .be-chart,
-    .other-chart {
-        left: 2px;
-        bottom: 10px;
-    }
-    .bar {
-        width: 35px;
-    }
-    
-    .side-label span {
-        font-size: 14px;
-        margin: 0;
-    }
-    .bar {
-        margin: 0 5px;
-    }
-   
-    .btm-label span {
-        margin-left: -50px;
-        font-size: 14px;
-        width: 97px;
-        transform: rotate(60deg);
-    }/*
-    .card-label {
-        margin-left: 0;
-    }
-    .front,
-    .back {
-        width: 55%;
-    }
-    .card-content {
-        padding: 0 0 0 5px;
-    }
-    .card-content h1 {
-        margin-left: 10px;
-        padding: 0;
-        text-align: left;
-        font-size: 20px;
-    }
-    .fa-retweet {
-        font-size: 24px;
-        right: 10px;
-    }
-    .enc-content {
-        bottom: 70px;
-    }
-    .enc-content img {
-        margin: 20px 0 0 10px;
-    }
-    .card-body p {
-        width: 290px;
-    }
-    .enc-content p,
-    .enc-content a,
-    .enc-content span {
-        font-size: 14px;
-    }
-   
-    .enc-content img {
-        width: 30px;
-        margin: 20px 0 0 0;
-    }
-    .social-links {
-        bottom: 10px;
-    }
-    .social-links img {
-        width: 30px;
-    }*/
-}
