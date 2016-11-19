@@ -1255,8 +1255,8 @@ footer {
         padding: 0;
     }
  
-    section p {
-        margin: 10px auto;
+    section p {/*
+        margin: 10px auto;*/
         width: 90%;
     }
 
@@ -1381,32 +1381,32 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
-      section {
+      section, footer {
       	width: 700px;
       }
 
 	}
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 580px) {/*
     .front,
     .back {
         width: 95%;
         height: 95%;
     }
     .card-label {
-        margin-left: 20px;
-    }
+        margin: 0 auto;
+    }*/
 }
 
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 565px) {/*
     .card-label {
         margin-left: 4%;
     }
-
+*/
    
     .skillbar {
         width: 95%;
-    }
+    }/*
     .front h1 {
         font-size: 24px;
     }
@@ -1427,11 +1427,11 @@ footer {
     }
     .enc-content p {
         font-size: 14px;
-    }
+    }*/
 
 
 }
-
+/*
 @media screen and (max-width: 535px) {
     .front,
     .back {
@@ -1446,10 +1446,10 @@ footer {
         width: 80%;
         height: 80%;
     }
-}
+}*/
 
 @media screen and (max-width: 470px) {
-   
+   /*
     .project-desc p {
         margin: 10px auto;
     }
@@ -1459,24 +1459,24 @@ footer {
       .enc-content {
         left: 10px;
       
-}
-
+}*/
+/*
 @media screen and (max-width: 485px) {
     .front,
     .back {
         width: 75%;
         height: 75%;
     }
-}
+}*/
 
-@media screen and (max-width: 455px) {
+@media screen and (max-width: 455px) {/*
     .card-label {
         margin-left: 0;
-    }
+    }*/
     body{
     	overflow-x: hidden;
     }
-
+/*
     .bar-container {
         left: 90px;
         bottom: 140px;
@@ -1501,11 +1501,11 @@ footer {
 
     .bar {
     	margin: 0 8px;
-    }
+    }*/
 
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 340px) {/*
     .calc-container {
         width: 280px;
     }
@@ -1595,7 +1595,7 @@ footer {
         font-size: 14px;
         width: 97px;
         transform: rotate(60deg);
-    }
+    }/*
     .card-label {
         margin-left: 0;
     }
@@ -1640,5 +1640,5 @@ footer {
     }
     .social-links img {
         width: 30px;
-    }
+    }*/
 }
