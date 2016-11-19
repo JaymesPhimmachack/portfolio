@@ -298,8 +298,6 @@ section > p {
     width: 685px;
     height: 526px;
     border-radius: 5px;
-    /*
-    padding: 0 20px;*/
 }
 
 .project-carousel .project-display {
@@ -1381,6 +1379,13 @@ footer {
         transition: transform 0.5s ease;
     }
 }
+
+@media screen and (max-width: 700px) {
+      section {
+      	width: 700px;
+      }
+
+	}
 
 @media screen and (max-width: 580px) {
     .front,
